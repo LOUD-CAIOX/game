@@ -8,11 +8,8 @@ WIDTH, HEIGHT = 1550, 800
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Jogo Indie")
-cor = (50,50,50)
 
-imagem = "player.png"
 running = True
-
 while running: 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -21,3 +18,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
